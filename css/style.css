@@ -1,0 +1,62 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body{
+  background-color: #E7766F;
+  font-size: 1.2em;
+  font-family: "raleway", sans-serif;
+}
+
+.container{
+  display: block;
+  width: 90%;
+  margin: 5%;
+}
+
+h1{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 3%;
+  padding-top: 10%;
+  padding-left: 0%;
+}
+
+.divTable{
+	display: table;
+  table-layout: fixed;
+	width: 100%;
+}
+
+#header {
+  background-color: yellow;
+}
+
+#a {
+  background-color: white;
+}
+
+#b {
+  background-color: #c0e0f7;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell, .divTableHead {
+	display: table-cell;
+	padding: 2% 2%;
+  text-align: left;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
