@@ -13,6 +13,70 @@ body{
 }
 
 h1{
+  font-size: 34px;
+  font-weight: bold;
+  padding: 2%;
+  padding: 4%;
+}
+
+.line{
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 4%;
+  padding-top: 5%;
+}
+
+.street{
+  padding-left: 4%;
+  padding-bottom: 5%;
+}
+
+.square{
+  background-color: #F1F5FF;
+}
+
+.square_white{
+  background-color: white;
+}
+
+.square:hover {
+  background-color: #F1F1F1;
+}
+.square_white:hover {
+  background-color: #F1F1F1;
+}
+
+.frequency{
+  display: inline-block;
+  padding-left: 2%
+}
+
+.arrow {
+  margin-top: 10%;
+  margin-right: 4%;
+  float: right;
+  color: gray;
+}
+
+div.navBar {
+   content:url(../images/left.png);
+   width: 8em;
+}​
+
+div.uiBar {
+   content:url(../images/bottomBar.png);
+   width: 8em;
+}​
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+/*
+h1{
   font-size: 1.5em;
   font-weight: bold;
   padding: 3%;
@@ -77,10 +141,4 @@ h1{
   max-width: 100%;
   height: auto;
 }
-
-@media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-    width: 48%;
-  }
-}
+*/
