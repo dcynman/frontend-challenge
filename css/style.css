@@ -12,6 +12,10 @@ body{
   width: 100%;
 }
 
+.image {
+  content:url(../images/Left.png);
+}
+
 h1{
   font-size: 34px;
   font-weight: bold;
@@ -58,21 +62,22 @@ h1{
   float: right;
   color: gray;
 }
-
-div.navBar {
-   content:url(../images/left.png);
-   width: 8em;
-}​
-
-div.uiBar {
+div.bottomBar {
    content:url(../images/bottomBar.png);
-   width: 8em;
+   width: 100%;
 }​
 
 @media screen and (min-width: 575px){
    div {
     margin: 1%;
     width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 23%;
   }
 }
 /*
