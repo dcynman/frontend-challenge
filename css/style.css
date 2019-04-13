@@ -12,6 +12,12 @@ body{
   width: 100%;
 }
 
+.base {
+  content:url(../images/base.png);
+  width:100%;
+  padding-bottom:2%;
+}
+
 .image {
   content:url(../images/Left.png);
 }
@@ -62,10 +68,80 @@ h1{
   float: right;
   color: gray;
 }
-div.bottomBar {
-   content:url(../images/bottomBar.png);
-   width: 100%;
-}​
+
+.bottomNav {
+  background-color: #ECECEC;
+  width: 100%;
+  padding: 5%;
+  text-align: center;
+}
+
+.favorites {
+  content:url(../images/navBar/fillOne.png);
+  display: inline-block;
+  position:absolute;
+  width: 6%;
+  left: 20%;
+  margin-left: -5%;
+  bottom: -32.3%;
+}
+
+.routes {
+  content:url(../images/navBar/locationIcon.png);
+  display: inline-block;
+  position:absolute;
+  width: 6%;
+  left: 50%;
+  margin-left:-2%;
+  bottom: -32.5%;
+}
+
+.profile {
+  content:url(../images/navBar/sharedCopy.png);
+  display: inline-block;
+  position:absolute;
+  width: 7%;
+  right: 20%;
+  margin-right: -5%;
+  bottom: -32.3%;
+}
+
+nav h3 {
+  font-size: 12px;
+}
+
+.bottomText li {
+  display: inline;
+  color: #8A8A8F;
+}
+
+#fav {
+  display: inline-block;
+  position:absolute;
+  width: 6%;
+  left: 20%;
+  margin-left: -8%;
+  padding-top:1.5%;
+}
+
+#rt {
+  display: inline-block;
+  position:absolute;
+  width: 6%;
+  left: 50%;
+  margin-left:-2.5%;
+  padding-top:1.5%;
+}
+
+#prof {
+  display: inline-block;
+  padding-left: 33%;
+  position:absolute;
+  width: 6%;
+  right: 20%;
+  margin-right: 2.5%;
+  padding-top:1.5%;
+}
 
 @media screen and (min-width: 575px){
    div {
@@ -80,6 +156,7 @@ div.bottomBar {
     width: 23%;
   }
 }
+
 /*
 h1{
   font-size: 1.5em;
