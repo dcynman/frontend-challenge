@@ -4,7 +4,14 @@
 body{
   background-color: white;
   font-size: 1.2em;
-  font-family: "SF Pro Display", "raleway", sans-serif;
+  font-family: "SF Pro Display", "system", "raleway", sans-serif;
+}
+
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
 .container{
@@ -71,9 +78,11 @@ h1{
 
 .bottomNav {
   background-color: #ECECEC;
+  border-top: .5px solid #B3B3B3;
   width: 100%;
   padding: 5%;
   text-align: center;
+  position: relative;
 }
 
 .favorites {
@@ -83,17 +92,17 @@ h1{
   width: 6%;
   left: 20%;
   margin-left: -5%;
-  bottom: -32.3%;
+  bottom: 35%;
 }
 
 .routes {
   content:url(../images/navBar/locationIcon.png);
   display: inline-block;
   position:absolute;
-  width: 6%;
+  width: 5%;
   left: 50%;
-  margin-left:-2%;
-  bottom: -32.5%;
+  margin-left:-1%;
+  bottom: 35%;
 }
 
 .profile {
@@ -103,7 +112,7 @@ h1{
   width: 7%;
   right: 20%;
   margin-right: -5%;
-  bottom: -32.3%;
+  bottom: 35%;
 }
 
 nav h3 {
@@ -141,6 +150,10 @@ nav h3 {
   right: 20%;
   margin-right: 2.5%;
   padding-top:1.5%;
+}
+
+strong {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 575px){
