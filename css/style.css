@@ -20,7 +20,7 @@ body{
 }
 
 .base {
-  content:url(../images/base.png);
+  content:url(../images/Base.png);
   width:100%;
   padding-bottom:2%;
 }
@@ -96,7 +96,7 @@ h1{
 }
 
 .routes {
-  content:url(../images/navBar/locationIcon.png);
+  content:url(../images/navBar/locationicon.png);
   display: inline-block;
   position:absolute;
   width: 5%;
